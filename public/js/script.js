@@ -1,0 +1,1 @@
+console.log("E-Waste Recycling Platform Loaded Successfully");

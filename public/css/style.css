@@ -1,0 +1,384 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background:#f8fff9;
+}
+
+.navbar-brand{
+    font-size:28px;
+}
+
+.nav-link{
+    font-weight:500;
+    margin-right:15px;
+    transition:0.3s;
+}
+
+.nav-link:hover{
+    color:#198754 !important;
+}
+
+.btn-success{
+    border-radius:30px;
+    padding:8px 22px;
+}
+
+.btn-outline-success{
+    border-radius:30px;
+    padding:8px 22px;
+}
+
+h1{
+    margin-top:120px;
+    font-weight:700;
+}
+
+p{
+    font-size:22px;
+}
+.hero{
+    padding:100px 0;
+}
+
+.hero-image{
+    width:100%;
+    max-width:700px;
+    border-radius:20px;
+    box-shadow:0 20px 40px rgba(0,0,0,0.12);
+}
+
+@keyframes float{
+
+0%{
+transform:translateY(0px);
+}
+
+50%{
+transform:translateY(-15px);
+}
+
+100%{
+transform:translateY(0px);
+}
+
+}
+/* Why Recycle Cards */
+
+.recycle-card{
+
+border:none;
+
+border-radius:20px;
+
+transition:0.4s;
+
+}
+
+.recycle-card:hover{
+
+transform:translateY(-10px);
+
+box-shadow:0 20px 35px rgba(0,0,0,0.15);
+
+}
+
+.recycle-card i{
+
+margin-top:20px;
+
+}
+/* ===============================
+   Hero Section
+================================= */
+
+.hero-section{
+    padding-top:80px;
+    padding-bottom:100px;
+}
+
+/* ===============================
+   Statistics
+================================= */
+
+.stats{
+    margin-top:60px;
+}
+
+.stats h2{
+    font-size:3rem;
+    font-weight:700;
+    color:#198754;
+}
+
+.stats p{
+    font-size:1.2rem;
+    font-weight:500;
+}
+
+/* ===============================
+   Hero Image
+================================= */
+
+.hero-image{
+    width:100%;
+    max-width:700px;
+    border-radius:20px;
+    box-shadow:0 20px 40px rgba(0,0,0,0.15);
+}
+
+/* ===============================
+   Why Recycle Cards
+================================= */
+
+.recycle-card{
+    border:none;
+    border-radius:20px;
+    transition:0.4s;
+    overflow:hidden;
+}
+
+.recycle-card i{
+    margin-top:20px;
+    transition:0.4s;
+}
+
+.recycle-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 20px 40px rgba(0,0,0,0.15);
+}
+
+.recycle-card:hover i{
+    transform:scale(1.2) rotate(10deg);
+}
+/* =====================================
+   FOOTER
+===================================== */
+
+.footer{
+
+    background:#198754;
+
+    color:white;
+
+    padding:60px 0 20px;
+
+}
+
+.footer h3,
+.footer h4{
+
+    margin-bottom:20px;
+
+}
+
+.footer a{
+
+    color:white;
+
+    text-decoration:none;
+
+    display:block;
+
+    margin-bottom:10px;
+
+    transition:.3s;
+
+}
+
+.footer a:hover{
+
+    color:#d4edda;
+
+    padding-left:5px;
+
+}
+
+.footer p{
+
+    color:#f8f9fa;
+
+}
+
+.social-icons i{
+
+    font-size:24px;
+
+    margin-right:15px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.social-icons i:hover{
+
+    transform:scale(1.2);
+
+    color:#d4edda;
+
+}
+
+.footer hr{
+
+    border-color:rgba(255,255,255,.3);
+
+}
+/* ==========================
+      LOGIN PAGE
+========================== */
+
+.login-section{
+
+padding:80px 0;
+
+background:#f3fbf6;
+
+min-height:80vh;
+
+}
+
+.login-card{
+
+border-radius:20px;
+
+transition:.4s;
+
+}
+
+.login-card:hover{
+
+transform:translateY(-8px);
+
+}
+
+.login-card input{
+
+border-radius:10px;
+
+}
+
+.login-card button{
+
+border-radius:10px;
+
+}
+
+.login-card a{
+
+font-size:15px;
+
+}
+
+.login-card .btn-success{
+
+font-weight:600;
+
+letter-spacing:.5px;
+
+}
+/* ==========================
+      COLLECTION CENTERS
+========================== */
+
+.centers-section{
+
+padding:70px 0;
+
+background:#f5fcf7;
+
+min-height:80vh;
+
+}
+
+.center-card{
+
+border:none;
+
+border-radius:20px;
+
+transition:.4s;
+
+}
+
+.center-card:hover{
+
+transform:translateY(-10px);
+
+box-shadow:0 15px 30px rgba(0,0,0,.15);
+
+}
+/* ==========================
+   COLLECTION DRIVES
+========================== */
+
+.drives-section{
+    padding:70px 0;
+    background:#f4fcf6;
+    min-height:80vh;
+}
+
+.drive-card{
+    border:none;
+    border-radius:20px;
+    transition:0.4s;
+}
+
+.drive-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 15px 30px rgba(0,0,0,.15);
+}
+
+
+/* PICKUP REQUEST PAGE */
+
+.pickup-section {
+    padding: 65px 0;
+    min-height: 80vh;
+    background: #f3fbf6;
+}
+
+.pickup-card {
+    border: 0;
+    border-radius: 22px;
+    animation: pickupFadeIn 0.6s ease;
+}
+
+.pickup-card .form-control,
+.pickup-card .form-select {
+    padding: 12px 14px;
+    border-radius: 10px;
+    border: 1px solid #d7e5db;
+}
+
+.pickup-card .form-control:focus,
+.pickup-card .form-select:focus {
+    border-color: #198754;
+    box-shadow: 0 0 0 0.2rem rgba(25, 135, 84, 0.12);
+}
+
+.pickup-card .btn-success {
+    padding: 13px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+@keyframes pickupFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 576px) {
+    .pickup-section {
+        padding: 35px 0;
+    }
+
+    .pickup-card .card-body {
+        padding: 24px !important;
+    }
+}
